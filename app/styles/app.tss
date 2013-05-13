@@ -1,0 +1,67 @@
+".container": {
+	backgroundColor: "#b2cecf",
+	layout: 'vertical',
+	navBarHidden : true
+},
+"ScrollView":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	scrollType: 'vertical',
+	layout:'vertical'
+},
+".hgroup": {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+},
+".vgroup": {
+	layout: "vertical",
+	height: Ti.UI.SIZE
+},
+"#overview":{
+	layout:'vertical',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+},
+"#head":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: '10dip', bottom: '10dip'
+},
+".header": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	left: '10dip',
+	color: "#d02552",
+	font: {fontSize:'30dip', fontWeight: 'bold'}
+},
+"#table":{
+	width:Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	bottom: '10dip',
+	right: '10dip',
+	left: '10dip'
+	
+},
+".Button":{
+	width: '60dip',
+	height: '60dip',
+	left: '10dip',
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	borderRadius:'5dip',
+	color: 'white',
+	font:{fontSize: '20dip'}
+},
+".pink":{
+	backgroundColor: "#d02552"
+},
+".green":{
+	backgroundColor: '#30b06d'//"#50d07d"
+}
+"Label":{
+	color: "black",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	font: {fontSize: '14dip'}
+}
+

@@ -1,0 +1,45 @@
+<Alloy>
+    <Window class='container' id="win">
+		<ScrollView>
+			<Label class='header'>Add New Alarm</Label>
+			<View id="overview">
+				<TextField hintText="Alarm Name" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" id="alarm_name" />
+				<View class='form' id='form'> </View>
+				<View id="repeat">
+					<!-- <View class="vgroup repeat_ct"  > -->
+							<!-- <View class='hgroup check_container' id='sun_rep'>
+								<View id='suncheck' class='daycheck vgroup' ></View>
+							</View>
+						
+							<View class='hgroup check_container' id='mon_rep'>
+								<View id='moncheck' class='daycheck vgroup' ></View>
+							</View>
+						
+							<View class='hgroup check_container' id='tue_rep'>
+								<View id='tuecheck' class='daycheck vgroup' ></View>
+							</View>
+						
+							<View class='hgroup check_container' id='wed_rep'>
+								<View id='wedcheck' class='daycheck vgroup' ></View>
+							</View>
+					</View>
+					<View class="vgroup repeat_ct" top="0" >
+							<View class='hgroup check_container' id='thu_rep'>
+								<View id='thucheck' class='daycheck vgroup' ></View>
+							</View>
+						
+							<View class='hgroup check_container' id='fri_rep'>
+								<View id='fricheck' class='daycheck vgroup' ></View>
+							</View>
+						
+							<View class='hgroup check_container' id='sat_rep'>
+								<View id='satcheck' class='daycheck vgroup' ></View>
+							</View> -->
+					<!-- </View> -->
+				</View>
+				<Button onClick="close" id="create_alarm">Add Alarm</Button>
+				<Button onClick="close" class='pink' id="cancel_alarm">Cancel</Button>
+			</View>
+		</ScrollView>
+    </Window>
+</Alloy>

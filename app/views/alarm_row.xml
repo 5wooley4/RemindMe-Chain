@@ -1,0 +1,13 @@
+<Alloy>
+	<TableViewRow id="row" dataId="" model="{alloy_id}">
+		<View id='alarm_row' class='vgroup'>
+			<View id='alarm_info' class='hgroup'>
+				<Label id="alarm_title" text="{title}"/>
+				<Label text="{pretty}"/>			
+			</View>
+			<View id="time_to_alarm" class='vgroup'>
+				<Label id='next_alarm' >--</Label>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

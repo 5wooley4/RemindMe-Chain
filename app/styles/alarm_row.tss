@@ -1,0 +1,21 @@
+
+"#row": {
+	className: "loc_row",
+	dataId : ""
+},
+"#alarm_row":{
+
+},
+"#alarm_info":{
+	touchEnabled: false,
+	height: Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+},
+"#alarm_title":{
+	touchEnabled: false,
+	height: Ti.UI.SIZE,
+	left: '10dip',
+	top: '10dip',
+	bottom: '10dip',
+	right: '10dip'
+}

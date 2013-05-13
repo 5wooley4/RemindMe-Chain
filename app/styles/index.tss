@@ -1,0 +1,19 @@
+
+"#table":{
+	width:Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	borderRaidus:'5dip',
+	backgroundColor: '#EEEEEE'
+},
+"#table_container":{
+	width:Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	bottom: '10dip'
+}
+
+/*
+ * Color Scheme
+ * #50d07d greenish color
+ * #d02552 pinkish color
+ * #b2cecf bluish background color
+ */

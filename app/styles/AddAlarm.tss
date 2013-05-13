@@ -1,0 +1,78 @@
+"#win":{
+	exitOnClose:false
+}
+"#overview":{
+	left: '10dip',
+	right: '10dip',
+	bottom: '10dip',
+	top: '10dip',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout:'vertical',
+	backgroundColor: '#EEEEEE'
+},
+"#repeat":{
+	width: Ti.UI.FILL
+	,height: Ti.UI.SIZE
+	,left: '10dip'
+	,right: '10dip'
+	,layout:'horizontal'
+
+},
+"#alarm_name":{
+	width: Ti.UI.FILL,
+	top: '10dip',
+	left: '10dip',
+	right:'10dip'
+},
+".form":{
+	layout:'horizontal',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: '10dip',
+	left: '10dip',
+	right: '10dip'
+},
+".repeat_ct":{
+	width: '50%',
+	height: Ti.UI.SIZE,
+	top: '0dip',
+	layout:'vertical'
+},
+".check_container":{
+	top:'2dip', bottom: '2dip',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+	//,left: '0dip',
+	,layout:'vertical'
+	
+},
+".daycheck":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+"#create_alarm":{
+	width: Ti.UI.FILL,
+	height: '60dip',
+	left: '10dip',
+	right: '10dip',
+	//top: '10dip',
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: '#30b06d',
+	borderRadius:'5dip',
+	color: 'white',
+	font:{fontSize: '20dip', fontStyle:'bold'}
+},
+"#cancel_alarm":{
+	width: Ti.UI.FILL,
+	height: '60dip',
+	top: '10dip',
+	left: '10dip',
+	right: '10dip',
+	bottom: '10dip',
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	borderRadius:'5dip',
+	color: 'white',
+	font:{fontSize: '20dip', fontStyle:'bold'}
+}
+

@@ -1,0 +1,15 @@
+<Alloy>
+	<Collection src="alarm" />
+	<Window class="container">
+		<View id='head' layout='horizontal'>
+			<Button class='Button green' onClick="doClick"> + </Button>
+			<Label class='header' >Remind Me</Label>
+		</View>
+		<View id="table_container">
+			<TableView id="table" dataCollection="alarm">
+				<Require id="alarm_row" src="alarm_row"/>
+			</TableView>
+		</View>
+
+	</Window>
+</Alloy>
